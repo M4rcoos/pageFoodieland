@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lobster&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Inter;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  border-bottom: 1px solid rgb(204, 197, 197);
+}
+
+.logo {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+}
+.menu li {
+  margin-left: 60px;
+}
+
+.social-Media {
+  display: flex;
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  color: orangered;
+}
+.slide-container {
+  display: flex;
+  flex-direction: row;
+}
+.container-slide {
+  background-color: #e7fafe;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  background-image: url(./assets/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 40px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+  padding: 50px;
+  background: #e7fafe;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 40px;
+  left: 532px;
+}
+
+.hot-recipes {
+  background-color: white;
+  border-radius: 40px;
+  border: none;
+
+  font-size: 14px;
+  font-family: inter;
+
+  margin-left: 3px;
+  margin-right: 5px;
+  width: 156px;
+  height: 45px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content h1 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 64px;
+  font-style: semi-bold;
+}
+.content p {
+  font-family: inter;
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+
+  width: 274px;
+}
+.btn button {
+  color: #000000;
+  font-family: inter;
+  font-weight: 500px;
+  background-color: #0000000d;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 139px;
+  height: 40px;
+
+  border: none;
+  border-radius: 30px;
+}
+.btn .chicken-btn {
+  color: #000000;
+  font-family: inter;
+  font-weight: 500px;
+  background-color: #0000000d;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 119px;
+  height: 40px;
+
+  border: none;
+  border-radius: 30px;
+}
+.contant {
+  width: 610px;
+}
+.container-view-recipes .user {
+  display: flex;
+}
+
+.container-view-recipes {
+  margin-top: 104px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-view-recipes button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 16px;
+  border: none;
+}
+.container-view-recipes button img {
+  margin-left: 15px;
+}
+.container-view-recipes .profile-info {
+  margin-left: 16px;
+}
+.user {
+  height: 50px;
+}
+.container-view-recipes .profile-info p {
+  font-family: inter;
+  font-size: 14px;
+
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  margin-top: 8px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-view-recipes .profile-info h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+.categories {
+  margin-top: 122px;
+}
+.title-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+}
+.title-categories h1 {
+  font-family: "Inter";
+  font-size: 48px;
+  margin-left: 60px;
+}
+.title-categories button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 16px;
+  margin-right: 60px;
+
+  background-color: #e7fafe;
+  color: #000000;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.list-categories {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.list-categories img {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  height: 100px;
+}
+
+.list-categories li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 202px;
+  margin-right: 10px;
+}
+.list-categories .name {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.list-categories .Breakfast {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 130, 70, 0) 0%,
+    rgba(112, 130, 70, 0.1) 100%
+  );
+  border-radius: 30px;
+}
+
+.list-categories .Vegan {
+  background: linear-gradient(
+    180deg,
+    rgba(108, 198, 63, 0) 0%,
+    rgba(108, 198, 63, 0.1) 100%
+  );
+  border-radius: 30px;
+}
+.list-categories .Meat {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 38, 27, 0) 0%,
+    rgba(204, 38, 27, 0.1) 100%
+  );
+  border-radius: 30px;
+}
+.list-categories .Dessert {
+  background: linear-gradient(
+    180deg,
+    rgba(240, 158, 0, 0) 0%,
+    rgba(240, 158, 0, 0.1) 100%
+  );
+  border-radius: 30px;
+}
+
+.list-categories .Lunch {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+  border-radius: 30px;
+}
+
+.list-categories .Chocolate {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+  border-radius: 30px;
+}
+.title-recipes {
+  margin-top: 183px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
