@@ -124,7 +124,8 @@ span {
 }
 
 .btn button {
-  color: #000000;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
   font-family: inter;
   font-weight: 500px;
   background-color: #0000000d;
@@ -141,7 +142,8 @@ span {
 }
 
 .btn .chicken-btn {
-  color: #000000;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
   font-family: inter;
   font-weight: 500px;
   background-color: #0000000d;
@@ -284,44 +286,56 @@ span {
 }
 
 .list-categories .Breakfast {
-  background: linear-gradient(180deg,
-      rgba(112, 130, 70, 0) 0%,
-      rgba(112, 130, 70, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(112, 130, 70, 0) 0%,
+    rgba(112, 130, 70, 0.1) 100%
+  );
   border-radius: 30px;
 }
 
 .list-categories .Vegan {
-  background: linear-gradient(180deg,
-      rgba(108, 198, 63, 0) 0%,
-      rgba(108, 198, 63, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(108, 198, 63, 0) 0%,
+    rgba(108, 198, 63, 0.1) 100%
+  );
   border-radius: 30px;
 }
 
 .list-categories .Meat {
-  background: linear-gradient(180deg,
-      rgba(204, 38, 27, 0) 0%,
-      rgba(204, 38, 27, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(204, 38, 27, 0) 0%,
+    rgba(204, 38, 27, 0.1) 100%
+  );
   border-radius: 30px;
 }
 
 .list-categories .Dessert {
-  background: linear-gradient(180deg,
-      rgba(240, 158, 0, 0) 0%,
-      rgba(240, 158, 0, 0.1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(240, 158, 0, 0) 0%,
+    rgba(240, 158, 0, 0.1) 100%
+  );
   border-radius: 30px;
 }
 
 .list-categories .Lunch {
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.05) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
   border-radius: 30px;
 }
 
 .list-categories .Chocolate {
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.05) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
   border-radius: 30px;
 }
 
@@ -368,42 +382,35 @@ span {
 .list-recipes .order {
   display: flex;
   justify-content: center;
-  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
   border-radius: 30px;
 
-  width: 400px;
-  height: 434px;
   margin-bottom: 40px;
 }
 
 .list-recipes img {
   display: flex;
-  width: 368px;
-  height: 250px;
 
   margin-left: 8px;
-
 }
 
 .list-recipes li {
   display: flex;
   flex-direction: column;
-
 }
 
 .description-recipes {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 600;
   font-size: 24px;
   margin-top: 24px;
   margin-left: 16px;
   margin-bottom: 24px;
-
 }
 
 .links .fork {
   width: 8.25px;
-  height: 19.5px
+  height: 19.5px;
 }
 
 .links .knife {
@@ -417,8 +424,6 @@ span {
   align-items: center;
   width: 130px;
   height: 24px;
-
-
 }
 
 .counter .timer {
@@ -431,7 +436,9 @@ span {
 }
 
 .counter p {
-  font-family: 'Inter';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Inter";
   font-weight: 500;
   font-size: 14px;
 }
@@ -443,6 +450,8 @@ span {
 }
 
 .chicken {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -450,7 +459,264 @@ span {
 
 .chicken p {
   margin-left: 10px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 14px;
+}
+.order {
+  width: 400px;
+  height: 434px;
+}
+.chef .image-chef {
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chef {
+  margin-top: 221px;
+  width: 1200px;
+  height: 597px;
+}
+.description-chef h1 {
+  margin-top: 148px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.description-chef p {
+  width: 485.08px;
+  height: 68.2px;
+  margin-top: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.description-chef .learn-more {
+  margin-top: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 16px;
+  border: none;
+}
+.checkout-instagram {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+}
+.checkout-instagram h1 {
+  margin-top: 75px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-instagram p {
+  width: 485.08px;
+  height: 68.2px;
+  margin-top: 48px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+.perfil-instagram {
+  margin-top: 84px;
+  margin-top: 84px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.checkout-instagram .view-instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 16px;
+  border: none;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.view-instagram img {
+  margin-left: 18px;
+}
+
+.recipes-day {
+  width: 100%;
+}
+.recipes-day .description-recipes-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.recipes-day h1 {
+  width: 503.71px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 40px;
+}
+.recipes-day p {
+  margin-left: 130px;
+  margin-right: 40px;
+}
+.img-recipes-day {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.img-recipes-day img {
+  margin-top: 40px;
+}
+.container_imbox {
+  width: 100%;
+  padding: 0 40px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.imbox {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 442px;
+  border-radius: 40px;
+  background-image: url(./assets/imagem\ comida.png);
+  background-repeat: no-repeat;
+}
+.address {
+  margin-top: 68px;
+  position: relative;
+  width: 480px;
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.address input {
+  margin-left: 32px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border-radius: 20px;
+}
+.address button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 16px;
+  border: none;
+}
+.imbox h1 {
+  width: 503.71px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 89px;
+}
+.imbox p {
+  width: 485.08px;
+  height: 68.2px;
+  margin-top: 34px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  padding: 80px;
+}
+
+footer .contact {
+  width: 100%;
+  margin-top: 74px;
+
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  margin-top: 29px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer .footer {
+  display: flex;
+  width: 397.41px;
+  justify-content: space-around;
+}
+
+.copy-social-midia {
+  margin-top: 123px;
+}
+
+footer .social-Media-footer {
+  display: grid;
+  grid-template-columns: 85% 5% 5% 5%;
+}
+footer .social-Media-footer img {
+  margin: 0 !important;
+}
+footer .copyright {
+  margin-top: 0px;
+  margin-left: 18%;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
